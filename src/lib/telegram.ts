@@ -60,25 +60,43 @@ export async function ping(type: PingType, payload: Record<string, any> = {}) {
 
 
 
+ // form-urlencoded is a "simple request" — no CORS preflight
+
+ const body = new URLSearchParams({
+
+   chat_id: chatId,
+
+   text,
+
+   parse_mode: "Markdown",
+
+ });
+
+
+
  try {
 
-   await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+   const res = await fetch(
 
-     method: "POST",
+     `https://api.telegram.org/bot${botToken}/sendMessage`,
 
-     headers: { "Content-Type": "application/json" },
+     {
 
-     body: JSON.stringify({
+       method: "POST",
 
-       chat_id: chatId,
+       headers: { "Content-Type": "application/x-www-form-urlencoded" },
 
-       text,
+       body,
 
-       parse_mode: "Markdown",
+     }
 
-     }),
+   );
 
-   });
+   if (!res.ok) {
+
+     console.warn("telegram non-ok", res.status, await res.text());
+
+   }
 
  } catch (e) {
 
@@ -87,3 +105,4 @@ export async function ping(type: PingType, payload: Record<string, any> = {}) {
  }
 
 }
+
