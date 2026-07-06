@@ -195,9 +195,10 @@ export default function AajKaGeet() {
           <p
             className="italic text-base sm:text-lg md:text-2xl leading-relaxed"
             style={{
-              color: "#FFF6E5",
+              color: "#4A2E10",
+              fontWeight: 500,
               fontFamily: "'Fraunces', serif",
-              textShadow: "0 2px 8px rgba(44,38,69,0.4)",
+              textShadow: "0 1px 0 rgba(255,246,229,0.6), 0 0 16px rgba(255,246,229,0.5)",
             }}
           >
             &ldquo;every song we add is a little chapter
@@ -230,8 +231,9 @@ export default function AajKaGeet() {
           <p
             className="font-playful text-xl sm:text-2xl mt-3"
             style={{
-              color: "#FFF6E5",
-              textShadow: "0 2px 6px rgba(44,38,69,0.4)",
+              color: "#4A2E10",
+              fontWeight: 700,
+              textShadow: "0 1px 0 rgba(255,246,229,0.6), 0 0 12px rgba(255,246,229,0.5)",
             }}
           >
             fall deeper →

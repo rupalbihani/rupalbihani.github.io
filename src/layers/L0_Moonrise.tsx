@@ -176,15 +176,12 @@ export default function Moonrise() {
 
          }}
 
-         className="font-playful text-xl md:text-3xl mt-6"
-
-         style={{
-
-           color: "#FFD6B0",
-
-           textShadow: "0 2px 8px rgba(44,38,69,0.4)",
-
-         }}
+         className="font-playful text-xl sm:text-2xl md:text-3xl mt-6"
+          style={{
+            color: "#4A2E10",
+            fontWeight: 700,
+            textShadow: "0 1px 0 rgba(255,246,229,0.6), 0 0 16px rgba(255,246,229,0.5)",
+          }}
 
        >
 

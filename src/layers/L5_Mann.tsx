@@ -276,10 +276,11 @@ export default function Mann() {
             />
           </div>
           <p
-            className="font-playful text-2xl mt-3"
+            className="font-playful text-xl sm:text-2xl mt-2 sm:mt-3"
             style={{
-              color: "#FFF6E5",
-              textShadow: "0 2px 6px rgba(44,38,69,0.4)",
+              color: "#4A2E10",
+              fontWeight: 700,
+              textShadow: "0 1px 0 rgba(255,246,229,0.6), 0 0 12px rgba(255,246,229,0.5)",
             }}
           >
             the last layer →
