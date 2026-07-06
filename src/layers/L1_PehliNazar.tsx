@@ -90,7 +90,7 @@ export default function PehliNazar() {
 
          <h2
 
-           className="font-hindi text-6xl md:text-8xl tracking-tight"
+           className="font-hindi text-4xl sm:text-6xl md:text-8xl tracking-tight"
 
            style={{
 
@@ -108,7 +108,7 @@ export default function PehliNazar() {
 
          <p
 
-           className="font-playful text-3xl md:text-4xl mt-2"
+           className="font-playful text-2xl md:text-4xl mt-2"
 
            style={{
 
@@ -210,7 +210,7 @@ export default function PehliNazar() {
 
              <div
 
-               className="w-[240px] md:w-[300px] rounded-lg block bg-center bg-cover"
+               className="w-[180px] sm:w-[240px] md:w-[300px] rounded-lg block bg-center bg-cover"
 
                style={{
 
@@ -318,7 +318,7 @@ export default function PehliNazar() {
 
              <span
 
-               className="font-playful text-xl"
+               className="font-playful text-base sm:text-lg md:text-xl"
 
                style={{ color: "#5B3B1E" }}
 
@@ -350,7 +350,7 @@ export default function PehliNazar() {
 
          <p
 
-           className="italic text-xl md:text-3xl leading-relaxed"
+           className="italic text-base sm:text-xl md:text-3xl leading-relaxed"
 
            style={{
 
@@ -374,7 +374,7 @@ export default function PehliNazar() {
 
          <p
 
-           className="font-hindi text-2xl mt-4 tracking-wide"
+           className="font-hindi text-lg sm:text-xl md:text-2xl mt-4 tracking-wide"
 
            style={{
 
@@ -558,7 +558,7 @@ function Character(props: CharacterProps) {
 
        <div
 
-         className="relative w-[180px] md:w-[220px] rounded-2xl select-none bg-center bg-cover"
+         className="relative w-[110px] sm:w-[160px] md:w-[220px] rounded-2xl select-none bg-center bg-cover"
 
          style={{
 

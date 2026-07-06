@@ -140,7 +140,7 @@ export default function Moonrise() {
 
          transition={{ duration: 2.5, delay: 2 }}
 
-         className="font-hindi text-7xl md:text-9xl tracking-tight text-center"
+         className="font-hindi text-5xl sm:text-6xl md:text-9xl tracking-tight text-center px-4"
 
          style={{
 
@@ -176,7 +176,7 @@ export default function Moonrise() {
 
          }}
 
-         className="font-playful text-2xl md:text-3xl mt-8"
+         className="font-playful text-xl md:text-3xl mt-6"
 
          style={{
 
@@ -325,12 +325,9 @@ function Polaroid(props: PolaroidProps) {
  const { src, rotate, side, delay, mouseX, mouseY, caption } = props;
 
  const posClass =
-
-   side === "left"
-
-     ? "left-4 md:left-16 top-[42%]"
-
-     : "right-4 md:right-16 top-[46%]";
+    side === "left"
+      ? "left-2 md:left-16 top-[38%] md:top-[42%]"
+      : "right-2 md:right-16 top-[42%] md:top-[46%]";
 
  const parallaxX = side === "left" ? mouseX * 12 : mouseX * -12;
 
@@ -404,7 +401,7 @@ function Polaroid(props: PolaroidProps) {
 
          alt={caption}
 
-         className="w-[140px] md:w-[180px] h-[160px] md:h-[220px] object-cover rounded-sm block"
+         className="w-[90px] sm:w-[120px] md:w-[180px] rounded-sm block bg-center bg-cover"
 
          draggable={false}
 

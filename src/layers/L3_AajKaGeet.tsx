@@ -105,7 +105,7 @@ export default function AajKaGeet() {
             minHeight: "40px",
           }}
         >
-          <p className="font-playful text-lg" style={{ color: "#5B3B1E" }}>
+          <p className="font-playful text-sm sm:text-base md:text-lg leading-tight" style={{ color: "#5B3B1E" }}>
             {song ? (
               <>🎵 <span style={{ fontWeight: 700 }}>{song.title}</span></>
             ) : loading ? (
@@ -122,7 +122,7 @@ export default function AajKaGeet() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2, delay: 0.6, ease: [0.4, 0, 0.2, 1] }}
           className="relative my-8"
-          style={{ width: "min(60vmin, 420px)", height: "min(60vmin, 420px)" }}
+          style={{ width: "min(75vmin, 420px)", height: "min(75vmin, 420px)" }}
         >
           <MoonlightVinyl songTitle={song?.title ?? null} />
           <Needle down={needleDown} />
@@ -148,7 +148,7 @@ export default function AajKaGeet() {
             </div>
 
             <p
-              className="font-playful text-center mt-3 text-lg"
+              className="font-playful text-center mt-3 text-sm sm:text-base md:text-lg"
               style={{ color: "#5B3B1E" }}
             >
               every song holds a feeling we lived together, one ordinary day at a time
@@ -173,7 +173,7 @@ export default function AajKaGeet() {
         >
           <button
             onClick={openPlaylistOnYouTube}
-            className="font-playful text-xl px-6 py-2.5 rounded-full transition-all hover:scale-105"
+            className="font-playful text-base sm:text-lg md:text-xl px-4 sm:px-6 py-2 sm:py-2.5 rounded-full transition-all hover:scale-105"
             style={{
               background: "linear-gradient(135deg, #FFF6E5, #F4D6A8)",
               border: "1.5px solid rgba(139,90,60,0.35)",
@@ -193,7 +193,7 @@ export default function AajKaGeet() {
           className="mt-10 max-w-2xl text-center px-6"
         >
           <p
-            className="italic text-xl md:text-2xl leading-relaxed"
+            className="italic text-base sm:text-lg md:text-2xl leading-relaxed"
             style={{
               color: "#FFF6E5",
               fontFamily: "'Fraunces', serif",
@@ -228,7 +228,7 @@ export default function AajKaGeet() {
             />
           </div>
           <p
-            className="font-playful text-2xl mt-3"
+            className="font-playful text-xl sm:text-2xl mt-3"
             style={{
               color: "#FFF6E5",
               textShadow: "0 2px 6px rgba(44,38,69,0.4)",
