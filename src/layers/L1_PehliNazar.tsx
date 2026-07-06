@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 import { ping } from "../lib/telegram";
 
 
-
 const TIMELINE = [
 
  { date: "9 May", note: "an Interest sent" },
@@ -17,6 +16,16 @@ const TIMELINE = [
  { date: "13 May", note: "the first message" },
 
  { date: "14 May", note: "the conversation came home" },
+
+ { date: "8-15 June",  note: "her brain: 'kya sach mein karta hai?' · his day: proving yes" },
+
+ { date: "16 June", note: "'ab dil khol sakte ho' · permission granted, floodgates opened"},
+ 
+ { date: "24 June", note: "round 47 of 'does he really?' · reassurance served, again" },
+ 
+  { date: "3 July",  note: "the parents spoke · it became official. assurance max pro" },
+
+ { date: "5 July", note: "I said it. she said it back. three words, both of us" },
 
 ];
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import { HashRouter, Route, Routes } from "react-router-dom";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 import { Gate } from "./components/Gate";
 
@@ -59,7 +60,7 @@ export default function App() {
    <div className="grain">
 
      <HashRouter>
-
+      <ScrollToTop /> 
        <Nav />
 
        <LayerTransition>
