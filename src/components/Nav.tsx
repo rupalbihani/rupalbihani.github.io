@@ -98,18 +98,25 @@ export function Nav() {
           <p
             className="font-hindi text-xs sm:text-sm md:text-base"
             style={{
-              color: "#FFF6E5",
-              textShadow: "0 2px 6px rgba(0,0,0,0.4)",
+              color: "#4A2E10",
+              fontWeight: 700,
+              textShadow: "0 1px 0 rgba(255,246,229,0.6), 0 0 12px rgba(255,246,229,0.5)",
             }}
           >
             {phase.hindi}
           </p>
+          
           <p
             className="font-playful text-xs hidden sm:block"
-            style={{ color: "#FFD6B0" }}
+            style={{
+              color: "#4A2E10",
+              fontWeight: 700,
+              textShadow: "0 1px 0 rgba(255,246,229,0.6)",
+            }}
           >
             {phase.name}
           </p>
+
         </div>
         <MoonPhaseIcon
           fraction={phase.fraction}
