@@ -15,6 +15,7 @@ export const CONFIG = {
  },
 
  youtubePlaylistId: "PLJobPFb021AthBxGQTXl2geU_-GRln0oO",
+ youtubeApiKey: "AIzaSyBr-GVA3RtXIe_ZW_wS1kppbYiHNMlP-Is",
 
 
 
