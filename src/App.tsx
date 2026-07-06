@@ -23,6 +23,8 @@ import Mann from "./layers/L5_Mann";
 
 import Publish from "./layers/L6_Publish";
 
+import Ring from "./layers/L7_Ring";
+
 
 
 export default function App() {
@@ -80,6 +82,8 @@ export default function App() {
            <Route path="/mann"        element={<Mann />} />
 
            <Route path="/prakashit"   element={<Publish />} />
+
+           <Route path="/ring" element={<Ring />} />
 
          </Routes>
 

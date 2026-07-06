@@ -1,6 +1,7 @@
 export const CONFIG = {
 
  firstMessageDate: "2026-05-13",
+ publishDate: "2026-07-05",
 
  name: { hindi: "रूपल बिहानी", english: "Rupal Bihani" },
 

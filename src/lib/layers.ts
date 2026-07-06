@@ -13,6 +13,7 @@ export const LAYERS = [
  { path: "/mann",        key: "mood",    hindi: "आज का मन",          english: "Today's Mood" },
 
  { path: "/prakashit",   key: "publish", hindi: "प्रकाशित करो",     english: "Publish" },
+ { path: "/ring", key: "ring", hindi: "अंगूठी", english: "The Ring" },
 
 ] as const;
 
